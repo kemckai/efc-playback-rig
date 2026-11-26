@@ -1,5 +1,7 @@
 # Eugene Fight Club playback rig
 
+**Show day:** [SHOW-DAY-RUNBOOK.md](SHOW-DAY-RUNBOOK.md) is the printable checkbox list (pack, cable, power-on, checks, failover drill, pack-out). The same order in prose is [docs/guide/07-load-in-runbook.md](docs/guide/07-load-in-runbook.md).
+
 A portable, redundant Ableton + AbleSet playback system built around the PlayAUDIO1U: two cases plus a control case, a perform mode and a record mode, with parts, prices and sources.
 
 Keith wants more mobile than his current rack. The build uses three pieces: a main case, a stage case, and a control case. His existing rack stays home as the record-mode hub.
@@ -110,6 +112,8 @@ flowchart LR
 
 ## Contents
 
+- [Show-day runbook](SHOW-DAY-RUNBOOK.md) — printable perform-day checklist
+- [Load-in chapter](docs/guide/07-load-in-runbook.md) — the same order, for reading before the gig
 - [Cases and rack layout](docs/cases-and-rack-layout.md) — 4U main case, 1U M2 mount, stage case, control case, PlayAUDIO1U setup
 - [Parts list](docs/parts-list.md) — prices seen Nov 26, 2026, and the compact-build subtotal
 - [Cable schedule](docs/cable-schedule.md) — perform-mode cabling and the suggested output map
