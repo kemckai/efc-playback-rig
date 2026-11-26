@@ -114,16 +114,18 @@ flowchart LR
 ## Contents
 
 - [Show-day runbook](SHOW-DAY-RUNBOOK.md) — printable perform-day checklist
-- [Load-in chapter](docs/guide/07-load-in-runbook.md) — the same order, for reading before the gig
+- [Learning path](docs/guide/00-start-here.md) — concepts through Atmos, plus glossary and FAQ
+- [AbleSet](docs/ableset.md) — install, locators, AbleNet, tablet, video, MIDI/OSC, PlayAUDIO1U
+- [Manuals index](docs/manuals/README.md) — official docs, local PDFs, and gaps
 - [Cases and rack layout](docs/cases-and-rack-layout.md) — 4U main case, 1U M1 mount, stage case, control case, PlayAUDIO1U setup
-- [Parts list](docs/parts-list.md) — prices seen Nov 26, 2026, and the compact-build subtotal
-- [Cable schedule](docs/cable-schedule.md) — perform-mode cabling and the suggested output map
+- [Parts list](docs/parts-list.md) — prices seen Nov 26, 2026, including the M1 pair, and the subtotal
+- [Cable schedule](docs/cable-schedule.md) — perform-mode cabling, HDMI switch, and the suggested output map
 - [Network and IP plan](docs/network-and-ip-plan.md) — static IPs on the wired gigabit switch
-- [RTP-MIDI setup](docs/rtp-midi-setup.md) — Audio MIDI Setup sessions and the PlayAUDIO1U initiator
+- [RTP-MIDI setup](docs/rtp-midi-setup.md) — numbered network-MIDI guide for the two M1 minis
 - [Modes and checklists](docs/modes-and-checklists.md) — record mode, redundant perform mode, AbleSet failover, switchover lists
 - [IEM mixes](docs/iem-mixes.md) — XR18 auxes, five mono mixes, transmitter options, dual snake
 - [Lighting (Lightkey)](docs/lighting-lightkey.md) — USB-DMX, Art-Net and sACN, licensing
-- [Video (projectors)](docs/video-projectors.md) — two projectors, HDBaseT, Live's video window
+- [Video (projectors)](docs/video-projectors.md) — HDMI switch, splitter, HDBaseT, Live's video window
 - [Atmos integration](docs/atmos-integration.md) — home Atmos 7.1.4 docking, Renderer and Music Panner
 
 ## Sources
