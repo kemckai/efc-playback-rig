@@ -2,7 +2,7 @@
 
 [Start here](00-start-here.md)
 
-The record-mode diagram calls the room a home Atmos 7.1.4 room: Dolby Atmos Renderer and the Dolby Atmos Music Panner. [Atmos integration](../atmos-integration.md). [Renderer](https://professional.dolby.com/product/dolby-atmos-content-creation/dolby-atmos-renderer/).
+The record-mode diagram calls the room a home Atmos 7.1.4 room: Dolby Atmos Renderer and the Dolby Atmos Music Panner. The full mixing workflow, including whether the Renderer changes a 7.1.4 mix, 5.1 fold-down, automation in Live, and alternatives to the Renderer app, is in [11. Dolby Atmos workflow](11-dolby-atmos-workflow.md). [Atmos integration](../atmos-integration.md). [Renderer](https://professional.dolby.com/product/dolby-atmos-content-creation/dolby-atmos-renderer/).
 
 Live cannot author Atmos objects or write an ADM BWF master. Record stems at home on Mini A from the XR18 USB 18x18, then mix in the Renderer. On macOS, Dolby Audio Bridge connects Live and the Renderer on one computer, up to 128 inputs.
 

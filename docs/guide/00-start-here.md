@@ -14,6 +14,7 @@ Read in this order. Each chapter says what the gear is for. The linked docs have
 8. [Show-day troubleshooting](08-show-day-troubleshooting.md)
 9. [Maintenance](09-maintenance.md)
 10. [Home Atmos room](10-home-atmos-studio.md)
+11. [Dolby Atmos workflow](11-dolby-atmos-workflow.md)
 
 Then [glossary](glossary.md) and [FAQ](faq.md).
 

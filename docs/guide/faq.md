@@ -29,3 +29,23 @@ Yes, if you select input 2 on the 2-in/1-out HDMI switch. The 1x2 splitter then 
 ## Where is the printable list?
 
 [SHOW-DAY-RUNBOOK.md](../../SHOW-DAY-RUNBOOK.md).
+
+## Does the Renderer change my 7.1.4 mix?
+
+It can. Live’s 7.1.4 mix is twelve channels, not an Atmos master. Map the four heights as objects (or pin objects to those speakers), then record and export from the Renderer or from Fiedler Composer. [Atmos workflow](11-dolby-atmos-workflow.md).
+
+## Why does 5.1 lose my height placements?
+
+5.1 has no height speakers, so overhead energy folds into the floor. Direct Render and manual trims change the balance, but they cannot keep elevation. [Folding down to 5.1](11-dolby-atmos-workflow.md#folding-down-to-51-loses-my-placements).
+
+## Do I have to use the Dolby Atmos Renderer app?
+
+No. You need a Dolby-approved renderer to write an ADM BWF. That can be the Renderer app with the Music Panner, or Fiedler’s Dolby Atmos Composer inside Live. A 12-channel 7.1.4 WAV is not Atmos. [Do I have to use the Renderer?](11-dolby-atmos-workflow.md#do-i-have-to-use-the-dolby-atmos-renderer).
+
+## Why does the Music Panner sequencer only do mono?
+
+Atmos objects are mono. A stereo sound is two objects, linked with Copy or Mirror. The sequencer typically drives one path; the second object follows the link. Split to two mono tracks if left and right must move on their own. [Sequencer FAQ](11-dolby-atmos-workflow.md#why-does-the-panner-sequencer-only-do-mono).
+
+## Does Apple Music use my binaural render modes?
+
+No. Apple Music headphone playback uses Apple’s Spatial Audio renderer and ignores Off, Near, Mid, and Far. Check that path separately. [Binaural and headphone mixing](11-dolby-atmos-workflow.md#binaural-and-headphone-mixing).

@@ -114,7 +114,7 @@ flowchart LR
 ## Contents
 
 - [Show-day runbook](SHOW-DAY-RUNBOOK.md) — printable perform-day checklist
-- [Learning path](docs/guide/00-start-here.md) — concepts through Atmos, plus glossary and FAQ
+- [Learning path](docs/guide/00-start-here.md) — concepts through the Atmos workflow, plus glossary and FAQ
 - [AbleSet](docs/ableset.md) — install, locators, AbleNet, tablet, video, MIDI/OSC, PlayAUDIO1U
 - [Manuals index](docs/manuals/README.md) — official docs, local PDFs, and gaps
 - [Cases and rack layout](docs/cases-and-rack-layout.md) — 4U main case, 1U M1 mount, stage case, control case, PlayAUDIO1U setup
@@ -127,6 +127,7 @@ flowchart LR
 - [Lighting (Lightkey)](docs/lighting-lightkey.md) — USB-DMX, Art-Net and sACN, licensing
 - [Video (projectors)](docs/video-projectors.md) — HDMI switch, splitter, HDBaseT, Live's video window
 - [Atmos integration](docs/atmos-integration.md) — home Atmos 7.1.4 docking, Renderer and Music Panner
+- [Dolby Atmos workflow](docs/guide/11-dolby-atmos-workflow.md) — 7.1.4 into the Renderer, 5.1 fold-down, automation in Live, ADM export, and alternatives
 
 ## Sources
 

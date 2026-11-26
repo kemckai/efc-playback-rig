@@ -19,3 +19,13 @@
 | HDBaseT | Video over Cat6A. Not the data switch. |
 | IEM | In-ear monitor. Five mono auxes. Model not confirmed. |
 | Stem | A subgroup of the track, routed to its own XLR pair. |
+| Bed | Channel-based part of an Atmos mix, up to 7.1.2 (ten channels). There is no 7.1.4 bed. [Atmos workflow](11-dolby-atmos-workflow.md). |
+| Object | An Atmos channel with position metadata, not a fixed speaker. Up to 118 with one 7.1.2 bed. |
+| ADM BWF | The usual Atmos music master: a Broadcast Wave file with Audio Definition Model metadata. |
+| Dolby Audio Bridge | macOS driver that carries up to 128 channels from Live to the Renderer on one computer. |
+| Music Panner | Dolby’s free plug-in that sends object positions from Live to the Renderer. |
+| Re-render | A channel-based bounce from the Renderer (7.1.4, 5.1, binaural, stereo). |
+| Binaural render mode | Off, Near, Mid, or Far on each bed or object, for Dolby headphone rendering. Not used by Apple Music Spatial Audio. [Atmos workflow](11-dolby-atmos-workflow.md#binaural-and-headphone-mixing). |
+| Apple Spatial Audio | Apple’s own headphone (and some speaker) renderer for Atmos on Apple Music and Apple TV. It does not use Dolby binaural modes. |
+| Trim and downmix | Metadata that controls how an Atmos mix folds to 7.1, 5.1, and stereo. |
+| LFE | Low-frequency effects channel. An extension, not the only bass. |

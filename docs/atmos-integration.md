@@ -2,7 +2,7 @@
 
 [Eugene Fight Club playback rig](../README.md)
 
-The record-mode signal flow labels this room as a home Atmos 7.1.4 room (Renderer + Music Panner). Dock the playback case at home. Keep the existing rack at home as the record-mode hub for the XR18, patching and Atmos gear.
+The record-mode signal flow labels this room as a home Atmos 7.1.4 room (Renderer + Music Panner). Dock the playback case at home. Keep the existing rack at home as the record-mode hub for the XR18, patching and Atmos gear. For mixing, 5.1 fold-down, Live automation, ADM export, and alternatives to the Renderer app, use [11. Dolby Atmos workflow](guide/11-dolby-atmos-workflow.md).
 
 - Live cannot author Atmos objects or export an ADM BWF master. Use the Dolby Atmos Renderer; Live is a listed compatible DAW and needs the Dolby Atmos Music Panner.
 - On macOS, Dolby Audio Bridge routes audio between Live and the Renderer on one computer (up to 128 inputs).

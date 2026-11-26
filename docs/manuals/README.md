@@ -39,6 +39,9 @@ Auracle X is iConnectivity’s configuration program for the X-series and for th
 | Audio-Technica AT2020 | Condenser under consideration | The product URL returned 403 from this environment. No manual linked. | None |
 | Rode Wireless PRO | Wireless under consideration | [Product page](https://rode.com/en-us/products/wireless-pro). No PDF manual opened. | None |
 | Sennheiser Profile Wireless | Wireless under consideration | The guessed catalog URL returned 404. No manual linked. | None |
+| Dolby Atmos Renderer | Home Atmos mixing and ADM export. Not part of the purchased show rack. | [Product page](https://professional.dolby.com/product/dolby-atmos-content-creation/dolby-atmos-renderer/). [Guide PDF (v3.0)](https://professional.dolby.com/siteassets/content-creation/dolby-atmos/dolby_atmos_renderer_guide.pdf). Current HTML docs are under [Renderer v5.4.0](https://customer.dolby.com/content-creation-and-delivery/dolby-atmos-renderer-v540/documentation/dolby-atmos-renderer-users-guide/input-and-master-menus/import-and-export). Workflow notes: [Atmos workflow](../guide/11-dolby-atmos-workflow.md). | None |
+| Dolby Atmos Music Panner | Object panning from Live into the Renderer | [Product page](https://professional.dolby.com/product/dolby-atmos-content-creation/dolby-atmos-music-panner). | None |
+| Fiedler Dolby Atmos Composer | Optional in-the-box Atmos renderer and ADM export in Live. Not required. | [Composer](https://fiedler-audio.com/dolby-atmos-composer/), [Essential](https://fiedler-audio.com/dolby-atmos-composer-essential/), [manual PDF](https://fiedler-audio.com/?wpdmdl=7957). | None |
 
 ## Gaps
 
