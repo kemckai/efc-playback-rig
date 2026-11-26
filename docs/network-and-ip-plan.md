@@ -4,7 +4,9 @@
 
 The switch has no DHCP server, so use static IPs. AbleSet's docs say to use matching first three octets and a 255.255.255.0 mask on a switch network. The XR18 defaults to DHCP client and self-assigns a 169.254.x.x address when no DHCP server exists, so set it static.
 
-The show switch is a wired unmanaged gigabit switch with static IPs and no router. In the 6U case that switch is the TP-Link TL-SG1016D (16-port). It is listed as 13 in rackmountable; confirm 19 in ears or use a shelf. The 4U build uses a small unmanaged switch velcroed to the mount or case lid (model and price not verified).
+Each computer is a confirmed Mac mini M2 (2023). Apple lists its Ethernet port as Gigabit (10Gb Ethernet is configure-to-order and is not part of this plan). That port is what connects to the switch.
+
+The show switch is a wired unmanaged gigabit switch with static IPs and no router. In both the 4U case and the 6U option that switch is the TP-Link TL-SG1016D (16-port), on its own rack unit. It is listed as 13 in rackmountable; confirm 19 in ears or use a shelf.
 
 Latency tips: wired only, no Wi-Fi, unmanaged switch, short Cat6. Set the XR18 REMOTE switch to Ethernet. The REMOTE switch selects Ethernet, Wi-Fi client or its own access point.
 
@@ -44,11 +46,10 @@ DMX node (if used) is 192.168.1.30. Art-Net needs the same subnet. Lightkey says
 
 ## Home dock
 
-Dock the case at home with the front I/O panel and a single Ethernet uplink. Keep the rig's 192.168.1.x subnet separate from the home router to avoid clashes. See [Atmos integration](atmos-integration.md).
+Dock the case at home with a single Ethernet uplink. The 4U case has no front I/O panel; that panel is only on the 6U option. Keep the rig's 192.168.1.x subnet separate from the home router to avoid clashes. See [Atmos integration](atmos-integration.md).
 
 ## Open items
 
-- 4U-build switch: model and price not verified.
 - TL-SG1016D: listed as 13 in rackmountable; confirm 19 in ears or use a shelf.
 - DMX node address is only if a node is used.
 
@@ -56,6 +57,7 @@ Dock the case at home with the front I/O panel and a single Ethernet uplink. Kee
 
 - [Network setup](https://ableset.com/docs/network) (AbleSet)
 - [AbleNet redundant playback](https://ableset.com/docs/ablenet) (AbleSet)
+- [Mac mini (2023) tech specs](https://support.apple.com/en-us/111837) (Apple)
 - [TL-SG1016D](https://www.microcenter.com/product/715627/tp-link-tl-sg1016d-16-port-gigabit-desktop-rackmount-switch) (Micro Center)
 - [XR18 user manual](https://mediadl.musictribe.com/media/PLM/data/docs/X-AIR/M_BE_0605-AAA_X-AIR_EN.pdf) (Behringer)
 - [Lightkey tech specs](https://www.lightkeyapp.com/en/specs) (Lightkey)

@@ -4,7 +4,7 @@
 
 Two modes: perform (redundant playback) and record / studio. Save one XR18 scene and one Audio MIDI Setup configuration per mode, and keep two Live templates (record and perform).
 
-The Mac mini model (M4) is assumed and not confirmed. See [Cases and rack layout](cases-and-rack-layout.md).
+Mac mini M2 (2023 chassis) is confirmed, not M4. Mount, case, and ports are in [Cases and rack layout](cases-and-rack-layout.md).
 
 ## Signal flow
 
@@ -15,7 +15,7 @@ flowchart LR
   subgraph CTRL[Control case - carried separately]
     KVM[2-port USB-C KVM + 15.6in monitor + wired KB/mouse]
   end
-  subgraph MAIN[Main case - 6U shallow]
+  subgraph MAIN[Main case - 4U shallow]
     MM[Main Mini: Live + AbleSet + Lightkey]
     BM[Backup Mini: Live + AbleSet + Lightkey standby]
     SW[Gigabit switch - static IPs, no router]
@@ -39,8 +39,8 @@ flowchart LR
   MM <-. AbleNet over switch .-> BM
   MM -- USB DMX or sACN --> DMX[DMX interface/node]
   DMX -- DMX 5-pin --> FIX[Fixtures]
-  MM -- 2x HDMI --> VSW[2x1 HDBaseT switchers]
-  BM -- 2x HDMI --> VSW
+  MM -- "HDMI via 1x2 splitter" --> VSW[2x1 HDBaseT switchers]
+  BM -- "HDMI via 1x2 splitter" --> VSW
   VSW -- Cat6A up to 100m --> PROJ[2 projectors]
   KVM -- USB-C video + KB/mouse --> MM
   KVM -- USB-C video + KB/mouse --> BM

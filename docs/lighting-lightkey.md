@@ -14,7 +14,7 @@ Lightkey is licensed per Mac, one active at a time, so true lighting redundancy 
 - If you buy two licenses, use an Art-Net or sACN node on the switch and set the backup's DMX output to none until a failover (a design suggestion, not from the docs).
 - DMX run: use dedicated DMX cable. Using a spare snake channel is a possible shortcut but was not verified; prefer a separate run.
 
-Enttec DMX USB Pro Mk2: $242.99 (listing price seen Nov 26, 2026). Lightkey supported.
+Enttec DMX USB Pro Mk2: $242.99 (listing price seen Nov 26, 2026). Lightkey supported. On the confirmed M2 mini it uses a USB-A port. That Mac has two USB-A ports. The Sonnet RackMac front-panel USB cable uses one of them if it is plugged in. See [Cable schedule](cable-schedule.md).
 
 In perform mode, Lightkey and video are on (Main), with projectors connected. In record / studio they are off. The perform checklist includes checking Lightkey output and DMX.
 

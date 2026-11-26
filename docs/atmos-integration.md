@@ -8,7 +8,7 @@ The record-mode signal flow labels this room as a home Atmos 7.1.4 room (Rendere
 - On macOS, Dolby Audio Bridge routes audio between Live and the Renderer on one computer (up to 128 inputs).
 - Record stems at home on Mini A from the XR18 over USB (18 channels), then mix in the Renderer.
 - To make backing tracks for the PlayAUDIO1U, render a stereo or binaural re-render from the Renderer, or export individual tracks from Live with Include Return and Main Effects. Export at one sample rate and load the files into the perform set.
-- Dock the case at home with the front I/O panel and a single Ethernet uplink. Keep the rig's 192.168.1.x subnet separate from the home router to avoid clashes.
+- Dock the case at home with a single Ethernet uplink. The chosen main case is the 4U GR-4S, which has no front I/O panel; that panel is only on the 6U option. Keep the rig's 192.168.1.x subnet separate from the home router to avoid clashes.
 - Keep your existing rack at home as the record-mode hub for the XR18, patching and Atmos gear.
 
 Mini A is the recorder / DAW. Mini B is the sound engine / slave. In record mode the XR18 USB connection is 18 in / 18 out to Mini A, the PlayAUDIO1U is monitoring out with failover not armed, and RTP-MIDI clock and transport plus Ableton Link run between the Minis. See [Modes and checklists](modes-and-checklists.md) and [RTP-MIDI setup](rtp-midi-setup.md).
@@ -42,7 +42,7 @@ XR18 scene REC-STUDIO is USB routing and studio monitors. Scene PERFORM is aux 1
 ## Open items
 
 - XR18 sample rate: not verified here. The PlayAUDIO1U supports 44.1, 48, 88.2 and 96 kHz; set both to the same rate after checking the XR18 manual.
-- The record-mode diagram names the room a home Atmos 7.1.4 room (Renderer + Music Panner). Dock on the front I/O panel with a single Ethernet uplink, and keep 192.168.1.x separate from the home router.
+- The record-mode diagram names the room a home Atmos 7.1.4 room (Renderer + Music Panner). Dock with a single Ethernet uplink, and keep 192.168.1.x separate from the home router. The front I/O panel is only on the 6U case option.
 
 ## Sources
 
