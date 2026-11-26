@@ -39,9 +39,10 @@ flowchart LR
   MM <-. AbleNet over switch .-> BM
   MM -- USB DMX or sACN --> DMX[DMX interface/node]
   DMX -- DMX 5-pin --> FIX[Fixtures]
-  MM -- "HDMI via 1x2 splitter" --> VSW[2x1 HDBaseT switchers]
-  BM -- "HDMI via 1x2 splitter" --> VSW
-  VSW -- Cat6A up to 100m --> PROJ[2 projectors]
+  MM -- "HDMI input 1" --> HSV[2-in/1-out HDMI switch]
+  BM -- "HDMI input 2" --> HSV
+  HSV -- HDMI --> SPL[1x2 HDMI splitter]
+  SPL -- "then HDBaseT, Cat6A up to 100m" --> PROJ[2 projectors]
   KVM -- USB-C video + KB/mouse --> MM
   KVM -- USB-C video + KB/mouse --> BM
   FS[Footswitch] -- Control port --> PA

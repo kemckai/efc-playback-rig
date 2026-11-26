@@ -16,7 +16,7 @@ An XR18 is the assumed on-stage mixer: PlayAUDIO1U outputs in, six aux sends, ma
 
 The control case is carried separately: a 15.6 in portable monitor, a two-port USB-C KVM, and a wired compact keyboard and mouse, with one USB-C cable per Mini. A wired unmanaged gigabit switch uses static IPs and no router. Wired tablets on that switch run the AbleSet web app and the X AIR app. RTP-MIDI rides the same switch: optional on the PlayAUDIO1U Ethernet port, and as Mini-to-Mini clock and transport in record mode.
 
-Lightkey runs on the Main Mini (one license is active on one Mac at a time). The M1 drives two displays at once: one up to 6K at 60Hz over Thunderbolt and one up to 4K at 60Hz over HDMI 2.0. One Thunderbolt / USB 4 port feeds the USB-C KVM, the other feeds the PlayAUDIO1U, and the single HDMI is the projector feed. A 1x2 HDMI splitter sends that one picture to both 2x1 HDBaseT switchers (Cat6A up to 100 m). Projector outputs never go through the KVM.
+Lightkey runs on the Main Mini (one license is active on one Mac at a time). The M1 drives two displays at once: one up to 6K at 60Hz over Thunderbolt and one up to 4K at 60Hz over HDMI 2.0. One Thunderbolt / USB 4 port feeds the USB-C KVM, the other feeds the PlayAUDIO1U. Each Mini's HDMI goes to a 2-in/1-out HDMI switch (Main on input 1, Backup on input 2). That switch's output goes through a 1x2 HDMI splitter so the selected Mini feeds both projectors. A 2x2 HDMI matrix is the alternative if each projector must be selectable on its own. Long runs stay HDBaseT over Cat6A, up to 100 m. Projector outputs never go through the KVM. No model or price is listed for the HDMI switch, splitter, or matrix.
 
 Perform mode is the redundant playback rig: Scene A active, LifeSine armed, AbleNet on, XR18 USB unplugged. Record mode connects the XR18 USB 18x18 to Mini A (recorder / DAW), with Mini B as the sound engine / slave, RTP-MIDI clock and transport, and Ableton Link. The record-mode flow labels the home room as a home Atmos 7.1.4 room (Dolby Atmos Renderer and Dolby Atmos Music Panner). Dock the case at home on the front I/O panel with a single Ethernet uplink, and keep the rig's 192.168.1.x subnet separate from the home router.
 
@@ -85,9 +85,10 @@ flowchart LR
   MM <-. AbleNet over switch .-> BM
   MM -- USB DMX or sACN --> DMX[DMX interface/node]
   DMX -- DMX 5-pin --> FIX[Fixtures]
-  MM -- "HDMI via 1x2 splitter" --> VSW[2x1 HDBaseT switchers]
-  BM -- "HDMI via 1x2 splitter" --> VSW
-  VSW -- Cat6A up to 100m --> PROJ[2 projectors]
+  MM -- "HDMI input 1" --> HSV[2-in/1-out HDMI switch]
+  BM -- "HDMI input 2" --> HSV
+  HSV -- HDMI --> SPL[1x2 HDMI splitter]
+  SPL -- "then HDBaseT, Cat6A up to 100m" --> PROJ[2 projectors]
   KVM -- USB-C video + KB/mouse --> MM
   KVM -- USB-C video + KB/mouse --> BM
   FS[Footswitch] -- Control port --> PA

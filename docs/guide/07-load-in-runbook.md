@@ -18,7 +18,7 @@ Pack three cases. Main: Furman, PlayAUDIO1U, switch, both Minis. Stage: XR18 and
 
 Place the main case, the stage case, and the control case before you cable. Run the dual snake to FOH and confirm what it carries. Channel count and send/return are not confirmed.
 
-Cable before power, in the order in the [cable schedule](../cable-schedule.md): PlayAUDIO1U USB-C A and B, KVM on the other Thunderbolt ports, HDMI through the splitters to the HDBaseT switchers (never through the KVM), Ethernet to the switch, XLRs to the XR18, auxes to the IEMs, mains to the snake, footswitch to a CONTROL port, Enttec on a Main Mini USB-A.
+Cable before power, in the order in the [cable schedule](../cable-schedule.md): PlayAUDIO1U USB-C A and B, KVM on the other Thunderbolt / USB 4 ports, HDMI into a 2-in/1-out switch (Main on 1, Backup on 2) then a 1x2 splitter and HDBaseT (never through the KVM), Ethernet to the switch, XLRs to the XR18, auxes to the IEMs, mains to the snake, footswitch to a CONTROL port, Enttec on a Main Mini USB-A.
 
 ## Power, then checks
 

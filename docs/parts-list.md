@@ -27,7 +27,7 @@ M1 confirmed: two identical Mac mini (M1, Late 2020) units, 16GB / 512GB. The mo
 | Pelican 1490CC1 | Control-station case | $299.95 |
 | Kramer EXT3-21-XR-TR or Key Digital KD-PS22UTX | HDBaseT 2x1 switcher/extender | Unknown / $1,049 |
 | Xvive U4, Sennheiser XSW IEM, Shure P3T | IEM transmitters | See IEM table |
-| Cables, XLR jumpers, USB-C, Cat6A, 1x2 HDMI splitters | Wiring | Unknown |
+| Cables, XLR jumpers, USB-C, Cat6A, 2-in/1-out HDMI switch, 1x2 splitter or 2x2 matrix | Wiring | Unknown |
 
 ## Subtotal
 

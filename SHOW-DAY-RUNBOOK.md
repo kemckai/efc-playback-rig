@@ -40,7 +40,7 @@ Do this before power. Map: [cable schedule](docs/cable-schedule.md).
 - [ ] Main Mini Thunderbolt to PlayAUDIO1U front USB-C A (audio and MIDI).
 - [ ] Backup Mini Thunderbolt to PlayAUDIO1U front USB-C B.
 - [ ] Other Thunderbolt on each Mini to the USB-C KVM (video, keyboard, mouse). Not the projector path.
-- [ ] Each Mini HDMI to its 1x2 splitter, then each leg to a 2x1 HDBaseT switcher. Never through the KVM.
+- [ ] Main HDMI to input 1 of a 2-in/1-out HDMI switch. Backup HDMI to input 2. Switch output into a 1x2 splitter, then HDBaseT toward the projectors. Never through the KVM. A 2x2 matrix is the alternative if each projector is selected on its own. No model or price is in the plan.
 - [ ] Each Mini Ethernet and the XR18 Ethernet to the gigabit switch. XR18 REMOTE set to Ethernet.
 - [ ] Tablets to the switch with the owned Ethernet adapters.
 - [ ] PlayAUDIO1U XLR 1–12 to the XR18. Leave output 15 unpatched (LifeSine is internal).
@@ -103,9 +103,10 @@ Scene **PERFORM**. Five mono mixes use Aux 1–5. Aux 6 stays spare. One mono mi
 
 ## 8. Projectors and Lightkey
 
-- [ ] Each projector shows a picture from Main and from Backup (both inputs of each 2x1 switcher, after the 1x2 HDMI splitter).
+- [ ] HDMI switch on input 1 (Main): both projectors show that picture after the 1x2 splitter.
+- [ ] HDMI switch on input 2 (Backup): both projectors show the Backup.
 - [ ] Projector path is HDMI, not the KVM.
-- [ ] A crashed app on a live Mac can still output a picture, so auto-switching may not trip. Know the manual switch.
+- [ ] A crashed app on a live Mac can still output a picture, so an auto HDMI switch may not trip. Use the manual select.
 - [ ] Lightkey is running on the Main Mini. Enttec output and the DMX run look right.
 - [ ] One Lightkey license is active on one Mac. Do not plan to move the license during a song. On a Main failure, a USB interface with its own microprocessor holds the last look. Some cheap interfaces send zeros and can flicker.
 
@@ -118,6 +119,7 @@ From the perform checklist and the PlayAUDIO1U steps.
 - [ ] KVM is on the Backup for this test, to see that it is tracking.
 - [ ] Pull the USB cable from PlayAUDIO1U DAW A. Audio and MIDI should continue on B.
 - [ ] Sync Playback Now in AbleSet.
+- [ ] Select HDMI switch input 2 and confirm both projectors follow the Backup. Select input 1 again.
 - [ ] Put the USB cable back on DAW A and confirm Scene A is active again before doors.
 - [ ] Footswitch on the CONTROL port does a manual failover (assigned in Auracle X). Touch panel can also switch.
 
@@ -141,7 +143,7 @@ One line each. Then use the linked page if it is still wrong.
 | Failover already happened | Leave B playing. Sync Playback Now. Do not move the Lightkey license mid-song. Switch projectors by hand if the picture did not follow. [Video](docs/video-projectors.md) |
 | Clicks or double transports | Mini-to-Mini RTP should be off. AbleSet MIDI AbleNet toggle should be off. [RTP-MIDI](docs/rtp-midi-setup.md) |
 | Tablet blank | Open the other Mini’s address (`.11` or `.12`). Check the Ethernet adapter and link light. [Network](docs/network-and-ip-plan.md) |
-| Projector dark | Check the HDMI splitter and both switcher inputs. Do not send projectors through the KVM. Switch by hand. |
+| Projector dark | Select the other input on the 2-in/1-out HDMI switch. Check the 1x2 splitter. Do not send projectors through the KVM. |
 | One IEM drops | That player can use the PlayAUDIO1U headphone click backup. Rescan only between songs. [IEMs](docs/iem-mixes.md) |
 | Click in the house | Output 1 must stay out of Main L/R. Auxes only. |
 | Lights stuck | Expected if the Main Mini stopped and the Enttec holds the last look. Second license is the only fast lighting backup, and only if you already own it. [Lightkey](docs/lighting-lightkey.md) |
