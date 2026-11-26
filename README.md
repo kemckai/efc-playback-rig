@@ -8,7 +8,7 @@ Keith wants more mobile than his current rack. The build uses three pieces: a ma
 
 ## Overview
 
-Two Mac minis run the same Ableton Live set. The Main Mini runs Live, AbleSet, and Lightkey. The Backup Mini runs Live, AbleSet, and Lightkey on standby. Keith confirmed Mac mini M2, 2023 chassis, not M4. Apple lists that M2 at 1.41 in (3.58 cm) tall and 2.6 lb, with two Thunderbolt 4 ports, two USB-A ports, HDMI, Gigabit Ethernet, and a 3.5 mm headphone jack. It fits a 1U rack (1.75 in / 44.45 mm). Both minis go side by side in a Sonnet RackMac mini (RACK-MIN-2XA, 2018–2023).
+Two Mac minis run the same Ableton Live set. The Main Mini runs Live, AbleSet, and Lightkey. The Backup Mini runs Live, AbleSet, and Lightkey on standby. Keith confirmed two identical Mac mini (M1, Late 2020) units, 16GB unified memory and 512GB SSD. Apple lists that mini at 1.4 in (3.6 cm) tall, 7.7 in square, and 2.6 lb (1.2 kg), with two Thunderbolt / USB 4 ports, two USB-A ports, an HDMI 2.0 port, Gigabit Ethernet, and a 3.5 mm headphone jack. It fits a 1U rack (1.75 in / 44.45 mm). Sonnet’s RACK-MIN-2XA is the 2018–2023 enclosure and is compatible with M1 minis, so both stay side by side in 1U in the Gator GR-4S.
 
 Both Minis plug into the two front USB-C ports of an iConnectivity PlayAUDIO1U (DAW A and DAW B). The unit has 12 balanced XLR outputs. Automatic failover uses iConnectivity's free LifeSine plugin as a test tone on output 15, plus a footswitch (or the touch panel) for manual failover. Keith's front USB-A host port is broken. The rear has only AC, the power switch, the 12 XLR outputs, and the RTP-MIDI Ethernet port. There is no rear USB.
 
@@ -16,7 +16,7 @@ An XR18 is the assumed on-stage mixer: PlayAUDIO1U outputs in, six aux sends, ma
 
 The control case is carried separately: a 15.6 in portable monitor, a two-port USB-C KVM, and a wired compact keyboard and mouse, with one USB-C cable per Mini. A wired unmanaged gigabit switch uses static IPs and no router. Wired tablets on that switch run the AbleSet web app and the X AIR app. RTP-MIDI rides the same switch: optional on the PlayAUDIO1U Ethernet port, and as Mini-to-Mini clock and transport in record mode.
 
-Lightkey runs on the Main Mini (one license is active on one Mac at a time). The M2 drives two displays at once. One Thunderbolt port feeds the USB-C KVM, the other feeds the PlayAUDIO1U, and the single HDMI is the projector feed. A 1x2 HDMI splitter sends that one picture to both 2x1 HDBaseT switchers (Cat6A up to 100 m). Projector outputs never go through the KVM.
+Lightkey runs on the Main Mini (one license is active on one Mac at a time). The M1 drives two displays at once: one up to 6K at 60Hz over Thunderbolt and one up to 4K at 60Hz over HDMI 2.0. One Thunderbolt / USB 4 port feeds the USB-C KVM, the other feeds the PlayAUDIO1U, and the single HDMI is the projector feed. A 1x2 HDMI splitter sends that one picture to both 2x1 HDBaseT switchers (Cat6A up to 100 m). Projector outputs never go through the KVM.
 
 Perform mode is the redundant playback rig: Scene A active, LifeSine armed, AbleNet on, XR18 USB unplugged. Record mode connects the XR18 USB 18x18 to Mini A (recorder / DAW), with Mini B as the sound engine / slave, RTP-MIDI clock and transport, and Ableton Link. The record-mode flow labels the home room as a home Atmos 7.1.4 room (Dolby Atmos Renderer and Dolby Atmos Music Panner). Dock the case at home on the front I/O panel with a single Ethernet uplink, and keep the rig's 192.168.1.x subnet separate from the home router.
 
@@ -28,7 +28,7 @@ Perform mode is the redundant playback rig: Scene A active, LifeSine armed, Able
 ## Key recommendations
 
 - Corrected assumption: retailers list the XR18 as a 3U rackmount that ships with rack ears, so it does not need a rack kit to be racked. Its listed 333 mm width with ears is narrower than a 19 in panel, so check fit before buying 19 in third-party ears ($17.99 to $24.59).
-- Keith confirmed Mac mini M2 (2023 chassis), not M4. Apple lists it at 1.41 in (3.58 cm) tall, so both minis fit a 1U dual rack. The mount is the Sonnet RackMac mini RACK-MIN-2XA, $249.99 at Sonnet's store. The M2 chip drives two displays, not three.
+- M1 confirmed: two identical Mac mini (M1, Late 2020) computers, 16GB / 512GB. Apple lists the chassis at 1.4 in (3.6 cm) tall, so both fit the Sonnet RackMac mini RACK-MIN-2XA ($249.99). The M1 drives two displays: 6K60 over Thunderbolt and 4K60 over HDMI 2.0.
 - The PlayAUDIO1U manual lists its two USB-C DAW ports and USB host port on the front panel. The rear has only AC, power switch, 12 XLR outputs and the RTP-MIDI Ethernet port. There is no rear USB.
 - Keith's front USB-A host port is broken, so the controller must come in over the 5-pin DIN MIDI input, the Ethernet RTP-MIDI port, a footswitch on the Control ports, or AbleSet on a wired tablet.
 - Ableton's video window hides when Live loses focus, so plan video around that limit (see [Video (projectors)](docs/video-projectors.md)).
@@ -37,12 +37,12 @@ Perform mode is the redundant playback rig: Scene A active, LifeSine armed, Able
 
 ## Assumptions and open questions
 
-Mac mini M2 (2023 chassis) is confirmed. Listing prices were seen on Nov 26, 2026. Unknown means no price was found. Verify before buying.
+M1 confirmed: two identical Mac mini (M1, Late 2020) units, 16GB / 512GB. Listing prices were seen on Nov 26, 2026. Unknown means no price was found. Verify before buying.
 
 | | |
 | --- | --- |
 | 1RU wireless | Assumed to be IEM transmitters. Not confirmed; the IEM options below replace it. |
-| Mac mini model | Confirmed: Mac mini M2, 2023 chassis, not M4. Apple lists height 1.41 in (3.58 cm), two Thunderbolt 4 ports, two USB-A ports, HDMI, Gigabit Ethernet, and a 3.5 mm headphone jack. Up to two displays. |
+| Mac mini model | M1 confirmed: two identical Mac mini (M1, Late 2020), 16GB unified memory, 512GB SSD. Apple lists height 1.4 in (3.6 cm), two Thunderbolt / USB 4 ports, two USB-A ports, HDMI 2.0, Gigabit Ethernet, and a 3.5 mm headphone jack. Two displays: 6K60 over Thunderbolt and 4K60 over HDMI. |
 | Dual snake | Assumed to carry XR18 mains and spare channels to FOH. Confirm channel count and whether it is send and return. |
 | XR18 role | Assumed to be the on-stage mixer: PlayAUDIO1U outputs in, aux sends to IEMs, main L/R to the snake. |
 | XR18 sample rate | Not verified here. The PlayAUDIO1U supports 44.1, 48, 88.2 and 96 kHz; set both to the same rate after checking the XR18 manual. |
@@ -114,7 +114,7 @@ flowchart LR
 
 - [Show-day runbook](SHOW-DAY-RUNBOOK.md) — printable perform-day checklist
 - [Load-in chapter](docs/guide/07-load-in-runbook.md) — the same order, for reading before the gig
-- [Cases and rack layout](docs/cases-and-rack-layout.md) — 4U main case, 1U M2 mount, stage case, control case, PlayAUDIO1U setup
+- [Cases and rack layout](docs/cases-and-rack-layout.md) — 4U main case, 1U M1 mount, stage case, control case, PlayAUDIO1U setup
 - [Parts list](docs/parts-list.md) — prices seen Nov 26, 2026, and the compact-build subtotal
 - [Cable schedule](docs/cable-schedule.md) — perform-mode cabling and the suggested output map
 - [Network and IP plan](docs/network-and-ip-plan.md) — static IPs on the wired gigabit switch
@@ -138,8 +138,9 @@ flowchart LR
 - [OSC tracks](https://ableset.com/docs/osc-tracks) (AbleSet)
 - [AbleSet editions and prices](https://ableset.com/) (AbleSet)
 - [Share MIDI over a network](https://support.apple.com/guide/audio-midi-setup/set-up-a-midi-network-session-ams1012/mac) (Apple)
-- [Mac mini (2023) tech specs](https://support.apple.com/en-us/111837) (Apple)
-- [How many displays on Mac mini (2023) with M2](https://support.apple.com/en-us/148273) (Apple)
+- [Mac mini (M1, 2020) tech specs](https://support.apple.com/en-us/111894) (Apple)
+- [Mac mini technical specifications, January 2021 (HDMI 2.0)](https://web.archive.org/web/20210126073214/https://www.apple.com/mac-mini/specs/) (Apple)
+- [Mac mini M1 16GB/512GB Renewed](https://www.amazon.com/Late-2020-Apple-8-Core-512GB/dp/B09XSZ55FH) (Amazon)
 - [Working with video](https://www.ableton.com/en/live-manual/12/working-with-video/) (Ableton)
 - [Synchronizing with Link and MIDI](https://www.ableton.com/en/live-manual/12/synchronizing-with-link-tempo-follower-and-midi/) (Ableton)
 - [License policy for Live](https://help.ableton.com/hc/en-us/articles/209772745-License-policy-for-Live) (Ableton)

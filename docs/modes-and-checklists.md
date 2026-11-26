@@ -4,7 +4,7 @@
 
 Two modes: perform (redundant playback) and record / studio. Save one XR18 scene and one Audio MIDI Setup configuration per mode, and keep two Live templates (record and perform).
 
-Mac mini M2 (2023 chassis) is confirmed, not M4. Mount, case, and ports are in [Cases and rack layout](cases-and-rack-layout.md).
+M1 confirmed: two identical Mac mini (M1, Late 2020) units, 16GB / 512GB. Mount, case, and ports are in [Cases and rack layout](cases-and-rack-layout.md).
 
 ## Signal flow
 

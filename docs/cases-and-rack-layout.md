@@ -4,7 +4,7 @@
 
 Keith wants more mobile than his current rack. The build below uses three pieces: a main case, a stage case and a control case. His existing rack stays home as the record-mode hub.
 
-Keith confirmed Mac mini M2, 2023 chassis, not M4. Apple lists that computer at 1.41 in (3.58 cm) tall, 7.75 in square, and 2.6 lb (1.18 kg). 1U is 1.75 in (44.45 mm), so the chassis fits a 1U rack. These notes are the M2 chip (two Thunderbolt 4 ports, two displays). The M2 Pro in the same 2023 chassis has four Thunderbolt 4 ports and can drive three displays; that chip is not this rig.
+M1 confirmed: two identical Mac mini (M1, Late 2020) units, each 16GB unified memory and 512GB SSD. Apple's tech specs list that computer at 1.4 in (3.6 cm) tall, 7.7 in (19.7 cm) square, and 2.6 lb (1.2 kg). 1U is 1.75 in (44.45 mm), so the chassis fits a 1U rack. 16GB memory and a 512GB SSD are configure-to-order options on that page (the base model is 8GB and 256GB).
 
 ## PlayAUDIO1U setup
 
@@ -49,7 +49,7 @@ flowchart TD
 
 ## Mac mini mount
 
-Both minis go in a Sonnet RackMac mini, part RACK-MIN-2XA. Sonnet's store title is RackMac mini (2018–2023), $249.99, in stock on Nov 26, 2026. The product page says it holds one or two Mac minis side by side in 1U, and lists compatibility as Mac mini mid 2010 through current M2 models. Dimensions are 19 x 8.4 x 1.7 in (48.3 x 21.3 x 4.4 cm). Sonnet also lists an 8.25 in mounting depth and a weight of 5.8 lb (2.63 kg). The rear is open for the computer ports. Each bay has a front power button and a front USB 3.0 port, with a panel cable to one USB-A port on that mini.
+Both minis go in a Sonnet RackMac mini, part RACK-MIN-2XA. Sonnet's store title is RackMac mini (2018–2023), $249.99, in stock on Nov 26, 2026. The product page says it holds one or two Mac minis side by side in 1U. Sonnet's support note says RACK-MIN-2XA is fully compatible with M1 Mac minis. Dimensions are 19 x 8.4 x 1.7 in (48.3 x 21.3 x 4.4 cm). Sonnet also lists an 8.25 in mounting depth and a weight of 5.8 lb (2.63 kg). The rear is open for the computer ports. Each bay has a front power button and a front USB 3.0 port, with a panel cable to one USB-A port on that mini. The 1.4 in M1 chassis fits this 1U mount, so the Gator GR-4S layout stays.
 
 ## Recommended main case: 4U
 
@@ -60,7 +60,7 @@ The mount is 1U, so the racked gear is four units: power, PlayAUDIO1U, switch, a
 | 1 | Furman M-8x2 power conditioner | 3.75 in | 8 rear outlets, 15 A, rear IEC-style cord; powers everything in the case |
 | 2 | PlayAUDIO1U | 7.81 in plus XLR plugs | No front I/O panel in this 4U case. XLRs leave the rear. |
 | 3 | TL-SG1016D switch | 7.1 in, 13 in wide | Listed as 13 in rackmountable; confirm 19 in ears or use a shelf |
-| 4 | Sonnet RackMac mini RACK-MIN-2XA | 8.4 in deep, 8.25 in mounting depth | Both M2 minis, side by side |
+| 4 | Sonnet RackMac mini RACK-MIN-2XA | 8.4 in deep, 8.25 in mounting depth | Both M1 minis, side by side |
 
 Gator lists the GR-4S at $249.99, 11 lb, and calls it a shallow 14.25 in case. The same page lists an interior length of 12.25 in. The Sonnet enclosure fits that depth. Depth of the PlayAUDIO1U plus XLR plugs is still the limit. The rolling alternative is the SKB 1SKB-R4SW (20.2 lb, $269.99), with the same PlayAUDIO1U-plus-XLR depth limit.
 
@@ -74,7 +74,7 @@ A 1U Penn Elcom D-series panel does not fit in the 4U case. Gator has no 5U in t
 | 2 | 1U front I/O panel (Penn Elcom, D-series) | Panel | Front XLR, Ethercon and pass-through jacks so setup is a few cables; USB-C and HDMI feedthroughs unverified |
 | 3 | PlayAUDIO1U | 7.81 in plus XLR plugs | Rear XLRs go to the I/O panel with short jumpers |
 | 4 | TL-SG1016D switch | 7.1 in, 13 in wide | Listed as 13 in rackmountable; confirm 19 in ears or use a shelf |
-| 5 | Sonnet RackMac mini RACK-MIN-2XA | 8.4 in deep | Both M2 minis |
+| 5 | Sonnet RackMac mini RACK-MIN-2XA | 8.4 in deep | Both M1 minis |
 | 6 | Empty | | No 5U GR shallow case, so this space stays open |
 
 The SKB 1SKB-R6SW rolls but has only 11.75 in rail depth and weighs 29.48 lb empty, which is tight with PlayAUDIO1U cabling. The Penn Elcom panel is $20.16. GR-6S is $10.00 more than GR-4S.
@@ -85,7 +85,7 @@ Retailers list the XR18 as a 3U rackmount that ships with rack ears, so it does 
 
 - XR18: 3U, 7.1 lb (3.2 kg), 30 W. Rack it with its ears in a Gator GR-3S (3U, 14.25 in, $239.99) or leave it on a stand as a stage box.
 - IEM transmitters: ride in the stage case or on the XR18 lid. Five Shure P3T half-racks need 3U with RPW504 kits; five Xvive U4 transmitters need none.
-- Weights I can verify: Gator GR-4S 11 lb, GR-6S 13 lb, SKB R4SW 20.2 lb, R6SW 29.48 lb, R8SW 31 lb, PlayAUDIO1U 8.73 lb, XR18 7.1 lb, Sonnet RackMac mini 5.8 lb, each M2 mini 2.6 lb (1.18 kg). Other gear weights are unknown.
+- Weights I can verify: Gator GR-4S 11 lb, GR-6S 13 lb, SKB R4SW 20.2 lb, R6SW 29.48 lb, R8SW 31 lb, PlayAUDIO1U 8.73 lb, XR18 7.1 lb, Sonnet RackMac mini 5.8 lb, each M1 mini 2.6 lb (1.2 kg). Apple notes that weight varies by configuration. Other gear weights are unknown.
 - Setup-time tips: the 4U case has no front I/O panel, so label the rear XLR loom from the PlayAUDIO1U. The 6U option can stay fully cabled to that panel. Label cables; keep all static IPs on a laminated card; pre-load Audio MIDI Setup configs per mode.
 
 ## Compact KVM options compared
@@ -120,12 +120,12 @@ The control case is carried separately: a 15.6 in portable monitor, a two-port U
 1. **Cable lengths.** Passive full-featured USB-C cables are reliable at 2 m for 4K60 DP Alt Mode. For longer runs use an active optical USB-C cable: ACT lists 10 m (up to 15 m) and ADTECHNO lists 7 m and 10 m, both 4K60 DP Alt Mode. Prices unknown.
 2. **Direction matters on some optical cables.** ADTECHNO marks Source and Display ends. Plug the Mini end into the Source end.
 3. **Power.** Run one extension lead from the main case's Furman to a small strip in the control case for the monitor and any KVM power.
-4. **Mini port budget.** Each confirmed M2 has two Thunderbolt 4 ports, two USB-A ports, one HDMI port, Gigabit Ethernet, and a 3.5 mm headphone jack. Apple says the M2 chip supports two displays at once: one up to 6K60 over Thunderbolt and a second up to 5K60 over Thunderbolt, or the second up to 4K60 over HDMI. One Thunderbolt port goes to the USB-C KVM (DisplayPort over USB-C). The other goes to the PlayAUDIO1U. HDMI is then the only projector output, at up to 4K60, and a 1x2 splitter feeds both switchers. A hub or daisy-chain can put two displays on one Thunderbolt port, but Apple says that does not raise the two-display maximum. The 3.5 mm jack is unused in this wiring. Gigabit Ethernet goes to the switch. 10Gb Ethernet is a configure-to-order option and is not part of this plan.
+4. **Mini port budget.** Each confirmed M1 has two Thunderbolt / USB 4 ports (DisplayPort, Thunderbolt 3 up to 40 Gb/s, USB 4, USB 3.1 Gen 2 up to 10 Gb/s), two USB-A ports (up to 5 Gb/s), one HDMI 2.0 port, Gigabit Ethernet, and a 3.5 mm headphone jack. Apple's current tech specs say it supports two displays at once: one up to 6K at 60Hz over Thunderbolt and one up to 4K at 60Hz over HDMI. Apple's 2020 specifications call that port HDMI 2.0. One Thunderbolt / USB 4 port goes to the USB-C KVM (native DisplayPort over USB-C). That is the Thunderbolt display. The other Thunderbolt / USB 4 port goes to the PlayAUDIO1U and is not a second display. HDMI 2.0 is the projector output, at up to 4K60, and a 1x2 splitter feeds both switchers. The 3.5 mm jack is unused in this wiring. Gigabit Ethernet goes to the switch. 10Gb Ethernet is a configure-to-order option and is not part of these units.
 5. **Hotkey and monitoring.** These USB-C KVMs use a button or remote. Keep the monitor on the Backup Mini during the first song to confirm it tracks the Main.
 
 ## Open items
 
-- Mac mini M2 (2023) is confirmed. The M4 assumption is closed.
+- M1 confirmed: two identical Mac mini (M1, Late 2020) units, 16GB / 512GB.
 - TL-SG1016D: listed as 13 in rackmountable; confirm 19 in ears or use a shelf.
 - Penn Elcom panel, only if the 6U case is used: USB-C and HDMI feedthroughs unverified.
 - 1x2 HDMI splitter: no price found. It is part of the cable line, which is Unknown.
@@ -154,5 +154,6 @@ The control case is carried separately: a 15.6 in portable monitor, a two-port U
 - [ASUS ZenScreen MB16AHV](https://www.amazon.com/ASUS-ZenScreen-viewable-Portable-MB16AHV/dp/B0CGGLZ8YT) (Amazon)
 - [Pelican 1490CC1](https://www.pelican.com/us/en/product/cases/1490cc1) (Pelican)
 - [ACT 10 m USB-C active optical cable](https://www.act-connectivity.com/en-us/products/cables/usb/usb-c-aoc-for-touch-panel-60w-4-lane-10m-ak4330) (ACT)
-- [Mac mini (2023) tech specs](https://support.apple.com/en-us/111837) (Apple)
-- [How many displays on Mac mini (2023) with M2](https://support.apple.com/en-us/148273) (Apple)
+- [Mac mini (M1, 2020) tech specs](https://support.apple.com/en-us/111894) (Apple)
+- [Mac mini technical specifications, January 2021 (HDMI 2.0)](https://web.archive.org/web/20210126073214/https://www.apple.com/mac-mini/specs/) (Apple)
+- [RackMac mini M1 compatibility](https://www.sonnettech.com/support/kb/kb.php?action=b1151&cat=435&expand=_a2_b1035_b649_a13_a1) (Sonnet)

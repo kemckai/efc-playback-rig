@@ -4,7 +4,7 @@
 
 Prices seen Nov 26, 2026. Unknown means not found. Verify before buying.
 
-Mac mini M2 (2023 chassis) is confirmed, not M4. The mount is the Sonnet RackMac mini RACK-MIN-2XA. Sonnet's store listed it at $249.99 on Nov 26, 2026. The main case is the Gator GR-4S. The GR-6S is only the option that keeps the front I/O panel.
+M1 confirmed: two identical Mac mini (M1, Late 2020) units, 16GB / 512GB. The mount is the Sonnet RackMac mini RACK-MIN-2XA, which Sonnet documents as compatible with M1 minis. Sonnet's store listed it at $249.99 on Nov 26, 2026. The main case stays the Gator GR-4S. The GR-6S is only the option that keeps the front I/O panel.
 
 | Item | Role | Price |
 | --- | --- | --- |
@@ -13,7 +13,8 @@ Mac mini M2 (2023 chassis) is confirmed, not M4. The mount is the Sonnet RackMac
 | Gator GR-6S | 6U shallow alternative if the I/O panel stays, 13 lb | $259.99 |
 | Gator GR-3S | 3U stage case for the XR18 | $239.99 |
 | SKB 1SKB-R6SW / R4SW | Rolling shallow alternatives | $304.99 / $269.99 |
-| Sonnet RackMac mini RACK-MIN-2XA (2018–2023) | 1U rack for both M2 minis | $249.99 Sonnet store |
+| 2x Mac mini (M1, 2020), 16GB / 512GB | Main and Backup, identical pair | $605 each, $1,210 pair. Amazon Renewed Excellent, Techdeals4Less, seen Nov 26, 2026 |
+| Sonnet RackMac mini RACK-MIN-2XA (2018–2023) | 1U rack for both M1 minis | $249.99 Sonnet store |
 | Furman M-8x2 | Power conditioner | $89.95 Guitar Center |
 | TP-Link TL-SG1016D | 16-port unmanaged gigabit switch | $59 to $79.99 |
 | Penn Elcom 1U panel, 12 or 16 D-series cutouts | Front I/O panel for the 6U option only (connectors extra) | $20.16 |
@@ -34,6 +35,7 @@ The 4U build does not include the Penn Elcom panel. Fixed prices in that build, 
 
 | Item | Price |
 | --- | --- |
+| 2x Mac mini (M1, 2020), 16GB / 512GB | $1,210 |
 | Gator GR-4S | $249.99 |
 | Furman M-8x2 | $89.95 |
 | Sonnet RackMac mini RACK-MIN-2XA | $249.99 |
@@ -41,7 +43,7 @@ The 4U build does not include the Penn Elcom panel. Fixed prices in that build, 
 | AbleSet Standard | $179 |
 | IOGEAR GCS1602CCKIT | $179.95 |
 | Pelican 1490CC1 | $299.95 |
-| Fixed total | $1,491.82 |
+| Fixed total | $2,701.82 |
 
 Three lines are still ranges, so the total is a range, not a single figure:
 
@@ -49,8 +51,8 @@ Three lines are still ranges, so the total is a range, not a single figure:
 - ASUS ZenScreen MB16AHV, $99.99 to $139.99
 - XR18 third-party ears, $17.99 to $24.59
 
-Low end: $1,491.82 + $59 + $99.99 + $17.99 = $1,668.80.
-High end: $1,491.82 + $79.99 + $139.99 + $24.59 = $1,736.39.
+Low end: $2,701.82 + $59 + $99.99 + $17.99 = $2,878.80.
+High end: $2,701.82 + $79.99 + $139.99 + $24.59 = $2,946.39.
 
 That excludes Lightkey, cables (including the 1x2 HDMI splitters), video extenders, IEMs, and the stage case. The earlier about-$1,538 figure was the M4 build (2U mount, 6U case, and the I/O panel) and does not apply.
 
@@ -89,7 +91,8 @@ KVM comparison prices, not line items in the table above: $99.99 to $179.95 for 
 - [Sonnet RackMac mini (2018–2023) store](https://www.sonnetstore.com/products/rackmac-mini) (Sonnet)
 - [RackMac mini specs](https://www.sonnettech.com/product/rackmacmini.html) (Sonnet)
 - [Gator GR-4S](https://gatorco.com/product/4u-audio-rack-shallow-gr-4s/) (Gator)
-- [Mac mini (2023) tech specs](https://support.apple.com/en-us/111837) (Apple)
+- [Mac mini (M1, 2020) tech specs](https://support.apple.com/en-us/111894) (Apple)
+- [Mac mini M1 16GB/512GB Renewed](https://www.amazon.com/Late-2020-Apple-8-Core-512GB/dp/B09XSZ55FH) (Amazon)
 - [Furman M-8x2](https://www.guitarcenter.com/Furman/M-8X2-Power-Conditioner-1273888005042.gc) (Guitar Center)
 - [TL-SG1016D](https://www.microcenter.com/product/715627/tp-link-tl-sg1016d-16-port-gigabit-desktop-rackmount-switch) (Micro Center)
 - [Penn Elcom 1U D-series panel](https://www.penn-elcom.com/us/1u-rack-panels-punched-for-12-x-d-series-connectors-r1269-1uk-12) (Penn Elcom)
